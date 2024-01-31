@@ -62,3 +62,12 @@ select City from Suppliers where Country='USA'
 order by City
 --GROUPBY
 select Country,COUNT(*)  from Customers group by Country order by COUNT(*)
+--HomeWork
+select pro.ProductName,SUM(od.Quantity*od.UnitPrice) [ Kazanılan Toplam Miktar]
+from ((Products pro inner join [Order Details] od on pro.ProductID=od.ProductID )
+inner join Orders o on O.OrderID=od.OrderID) group by pro.ProductName
+order by pro.ProductName
+
+
+
+

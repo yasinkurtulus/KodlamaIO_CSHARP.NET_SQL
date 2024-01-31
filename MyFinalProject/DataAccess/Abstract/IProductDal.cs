@@ -1,0 +1,18 @@
+﻿using Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataAccess.Abstract
+{
+    public interface IProductDal
+    {
+        List<Product> GetAll();
+        void add(Product product);
+        void Update(Product product);
+        void Delete(Product product);
+        List<Product> GetByCategories(int categoryId);
+    }
+}
