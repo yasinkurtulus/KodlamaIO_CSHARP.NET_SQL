@@ -1,0 +1,7 @@
+D:\Github\KodlamaIO_CSHARP.NET_SQL\LİnqProject\LİnqProject\bin\Debug\LİnqProject.exe.config
+D:\Github\KodlamaIO_CSHARP.NET_SQL\LİnqProject\LİnqProject\bin\Debug\LİnqProject.exe
+D:\Github\KodlamaIO_CSHARP.NET_SQL\LİnqProject\LİnqProject\bin\Debug\LİnqProject.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\LİnqProject\LİnqProject\obj\Debug\LİnqProject.csproj.AssemblyReference.cache
+D:\Github\KodlamaIO_CSHARP.NET_SQL\LİnqProject\LİnqProject\obj\Debug\LİnqProject.csproj.CoreCompileInputs.cache
+D:\Github\KodlamaIO_CSHARP.NET_SQL\LİnqProject\LİnqProject\obj\Debug\LİnqProject.exe
+D:\Github\KodlamaIO_CSHARP.NET_SQL\LİnqProject\LİnqProject\obj\Debug\LİnqProject.pdb

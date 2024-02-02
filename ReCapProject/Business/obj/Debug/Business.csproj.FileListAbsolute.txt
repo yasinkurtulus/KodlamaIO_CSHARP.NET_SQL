@@ -1,0 +1,11 @@
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\bin\Debug\Business.dll
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\bin\Debug\Business.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\bin\Debug\DataAccess.dll
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\bin\Debug\Entities.dll
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\bin\Debug\DataAccess.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\bin\Debug\Entities.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\obj\Debug\Business.csproj.CopyComplete
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\obj\Debug\Business.dll
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\Business\obj\Debug\Business.pdb

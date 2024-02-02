@@ -1,0 +1,14 @@
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\Business.dll
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\DataAccess.dll
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\Entities.dll
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\Business.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\DataAccess.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\bin\Debug\Entities.pdb
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\obj\Debug\ConsoleUI.csproj.AssemblyReference.cache
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\obj\Debug\ConsoleUI.exe
+D:\Github\KodlamaIO_CSHARP.NET_SQL\ReCapProject\ConsoleUI\obj\Debug\ConsoleUI.pdb
