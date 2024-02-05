@@ -1,4 +1,5 @@
 ﻿using Business.Concrate;
+using DataAccess.Concrate.EntityFrameWork;
 using DataAccess.Concrate.InMemory;
 using System;
 using System.Collections.Generic;
@@ -12,13 +13,12 @@ namespace ConsoleUII
     {
         static void Main(string[] args)
         {
-            InMemoryProductDal ınMemory = new InMemoryProductDal();
-              ProductManager proman = new ProductManager(ınMemory);
-            foreach (var product in proman.GetAll())
+            ProductManager productManager2 = new ProductManager(new EfProductDal());
+            foreach (var product in productManager2.GetAll())
             {
-                Console.WriteLine(product.ProductName);
+                
             }
-          
+
         }
     }
 }

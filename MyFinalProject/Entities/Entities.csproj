@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Abstract\IEntity.cs" />
     <Compile Include="Concrate\Category.cs" />
+    <Compile Include="Concrate\Customer.cs" />
     <Compile Include="Concrate\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

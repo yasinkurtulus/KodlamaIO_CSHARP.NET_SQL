@@ -3,6 +3,7 @@ using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Documents;
@@ -16,11 +17,11 @@ namespace DataAccess.Concrate.InMemory
           List<Product> _products;
         public InMemoryProductDal()
         {
-            _products = new List<Product> {  new Product {CategoryID = 1, ProductID = 1, ProductName = "Car", Price = 15, UnitInStocks = 65},
-        new Product {CategoryID = 1, ProductID = 2, ProductName = "Glass", Price = 534, UnitInStocks = 45},
-        new Product {CategoryID = 2, ProductID = 3, ProductName = "Mouse", Price = 234, UnitInStocks = 678},
-        new Product {CategoryID = 2, ProductID = 4, ProductName = "Hat", Price = 5, UnitInStocks = 9},
-        new Product {CategoryID = 2, ProductID = 5, ProductName = "Jar", Price = 16, UnitInStocks = 7}};
+            _products = new List<Product> {  new Product {CategoryID = 1, ProductID = 1, ProductName = "Car", UnitPrice = 15, UnitsInStock  = 65},
+        new Product {CategoryID = 1, ProductID = 2, ProductName = "Glass", UnitPrice = 534, UnitsInStock  = 45},
+        new Product {CategoryID = 2, ProductID = 3, ProductName = "Mouse", UnitPrice = 234, UnitsInStock  = 678},
+        new Product {CategoryID = 2, ProductID = 4, ProductName = "Hat", UnitPrice = 5, UnitsInStock   = 9},
+        new Product {CategoryID = 2, ProductID = 5, ProductName = "Jar", UnitPrice = 16, UnitsInStock  = 7}};
         }
         public void add(Product product)
         {
@@ -43,9 +44,19 @@ namespace DataAccess.Concrate.InMemory
             _products.Remove(productToDelete);
         }
 
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             return _products;
+        }
+
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetByCategories(int categoryId)
@@ -67,8 +78,8 @@ namespace DataAccess.Concrate.InMemory
             Product productToUpdate = _products.SingleOrDefault(p => p.ProductID == product.ProductID);
             productToUpdate.ProductName = product.ProductName;
             productToUpdate.CategoryID = product.CategoryID;
-            productToUpdate.Price = product.Price;
-            productToUpdate.UnitInStocks = product.UnitInStocks;
+            productToUpdate.UnitPrice = product.UnitPrice;
+            productToUpdate.UnitsInStock = product.UnitsInStock;
         }
     }
 }
